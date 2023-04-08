@@ -1,63 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Mind Over Mess</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="images/site.webmanifest">
-</head>
-<body>
-
-
-	<div id="container">
-	
-	<!-- Use the header area for the website name or logo -->
-	<header>
-		<a href="index.html"><img src="logo.png" alt="Mind Over Mess Logo" height="200" width="200"></a>
-	</header>
-	
-	<!-- Use the nav area to add hyperlinks to other pages within the website -->
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li> 
-			<li><a href="bio.html">Bio</a></li> 
-			<li><a href="gallery.html">Gallery</a></li> 
-			<li><a href="contact.html">Contact Us</a></li> 			
-		</ul>
-
-	</nav>
-	
-	<!-- Hero Image -->
-	<div id="hero">
-		<img src="beach1.jpg" alt="beach1">
-	</div>
-	
-	<!-- Use the main area to add the main content of the webpage -->
-<main>
-	
-		<div id="intro">
-			<p>Welcome to Mind Over Mess Designs.</p>
-			
-			<p>Chelsea uses acrylic paints on Canvas to create an array of emotion in each of her pieces.</p>
-			
-			<p>Prints are also available per request.</p>
-
-		</div>
-			
-</main>
-	
-	<!-- Use the footer area to add webpage footer content -->
-<footer>
-		<p>&copy; Copyright 2022. All Rights Reserved.</p>
-		<p>mindovermessdesigns@gmail.com</p>
-</footer>
-	
-	</div>
-	
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/orion-styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Orion's Market</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li class>
+				<a href="#" class="dropdown-toggle nav-item" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                	<a class="dropdown-item" href="scott.html">Scott Collection</a>
+                	<a class="dropdown-item" href="paul.html">Paul Collection</a>
+					<a class="dropdown-item" href="john.html">John Collection</a>
+					<a class="dropdown-item" href="kids.html">Kids/Teens Project</a>
+                	<a class="dropdown-item" href="pets.html">Homeless Pet Project</a>
+					<a class="dropdown-item" href="homeless.html">Homeless Project</a>
+				</div>
+			</li>
+			  
+            <li class="nav-item"><a href="cart.html">Cart</a></li>
+            <li class="nav-item"><a href="about.html">About Us</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+          <div class="img-fluid active">
+                <img class="d-block w-100" src="images/banner 1920_500.jpg" alt="banner">              </div>
+</div>
+</div>
+        </div>
+      </div>
+      <hr>
+    </div>
+<hr>
+    <h2 class="text-center">SHOP OUR CURRENT&nbsp;</h2>
+    <h2 class="text-center">COLLECTIONS AND PROJECTS&nbsp;&nbsp;</h2>
+<hr>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/snowboarder.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Scott Collection</h5>
+              <p class="card-text">20% proceeds go to the<a href="https://glioblastomafoundation.org ">Glioblastoma Foundation</a>.&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://glioblastomafoundation.org ">https://glioblastomafoundation.org&nbsp;</a></p>
+<a href="scott.html" class="btn btn-primary">Shop</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/scenery.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Paul Collection</h5>
+              <p class="card-text">20% proceeds go to the <a href="https://www.ccalliance.org">Colorectal Cancer Alliance.</a>&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://www.ccalliance.org">https://www.ccalliance.org</a></p>
+<a href="paul.html" class="btn btn-primary">Shop</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card"> <img class="card-img-top" src="images/boat.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">John Collection</h5>
+              <p class="card-text">20% proceeds go to the<a href="https://www.heart.org">American Heart Association.</a>&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://www.heart.org">https://www.heart.org</a></p>
+<a href="john.html" class="btn btn-primary">Shop</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card"> <img class="card-img-top" src="images/pets.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Homeless Pet Project</h5>
+              <p class="card-text">20% proceeds go to the<a href="https://www.thenoahcenter.org">NOAH Center</a>.&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://www.thenoahcenter.org">https://www.thenoahcenter.org</a></p>
+<a href="pets.html" class="btn btn-primary">Shop</a></div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/kids.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Kids and Teens Project</h5>
+              <p class="card-text">20% proceeds go to the<a href="https://endsexualexploitation.org">National Center on Sexual Exploitation</a>.&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://endsexualexploitation.org">https://endsexualexploitation.org</a></p>
+<a href="kids.html" class="btn btn-primary">Shop</a>
+            </div>
+          </div>
+</div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card"> <img class="card-img-top" src="images/homeless.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Homeless Project</h5>
+              <p class="card-text">20% proceeds go to the<a href="https://www.thelighthousemission.org/">Lighthouse Mission Ministries</a>.&nbsp;</p>
+              <p class="card-text">Check out their website for more information <a href="https://www.thelighthousemission.org">https://www.thelighthousemission.org</a></p>
+<a href="homeless.html" class="btn btn-primary">Shop</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+<hr>
+<hr>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+<div class="col-md-4 col-lg-5 col-6 offset-xl-1">
+      <address>
+            <strong>Orion's Market</strong><br>
+            Heart of Mount Vernon&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mount Vernon, WA, 98274<br>
+            <abbr title="Phone">P:</abbr> (360) 123-4567
+          </address>
+</div>
+<div class="col-md-4 col-lg-5 col-6 offset-xl-1">
+  <address>
+  <strong>Contact Us&nbsp;&nbsp;</strong><br>
+  <a href="mailto:#">info@orionsmarket.com</a>
+  </address>
+  &nbsp;</div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>© 2023 Orion's Market</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
 </html>
