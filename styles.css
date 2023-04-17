@@ -6,9 +6,9 @@ File Name: Styles.css
 
 /*CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
-	margin: 0;
-	padding: 0;
-	border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Style rules for body and images */
@@ -124,15 +124,22 @@ main {
 
 
 .pic-text {
-	bottom: 1em;
-	color: #000000;
-	width: 55%;
-	padding: 20px;
-	text-align: center;
-	font-family: 'EB Garamond', serif;
-	font-size: 1.25em;
-	font-weight: bold;
-	margin: 2%
+    bottom: 1em;
+    color: #27335E;
+    width: 97%;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 2%;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    left: 20px;
+    right: 20px;
 }
 
 /* Style rules for footer content */
@@ -148,6 +155,162 @@ footer p a {
 	text-decoration: none;
 	font-size: 1em;
 }
+#container main #message {
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    padding-left: px;
+    margin: auto;
+    clear: both;
+    display: table;
+}
+#offerEnds {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 150px;
+    margin: auto;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+.frame #info h1 {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: auto;
+    width: 150px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+.frame #info p {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: auto;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+    font-weight: bold;
+}
+.frame #info h3 {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    margin: auto;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+
+.frame #info #offerEnds {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: auto;
+    box-sizing: content-box;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+.frame #info #specialRate {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: auto;
+    box-sizing: content-box;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+.frame #info #artRate {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: auto;
+    box-sizing: content-box;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+    text-decoration: line-through;
+}
+.frame #info #artName {
+    background-color: #EAC477;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: auto;
+    box-sizing: content-box;
+    width: 250px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 630px), print {
@@ -193,8 +356,11 @@ footer p a {
 	}
 	
 	.pic-text {
-		font-size: 1em;
-		padding: 10px;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    color: #4D1B0C;
+    width: 240px;
 	}
 	
 	.map {
@@ -243,8 +409,22 @@ footer p a {
 		}
 		
 		main h1 {
-			font-size: 2.25em;
+    font-size: 2.25em;
+    text-align: center;
+    display: table;
+    clear: both;
+    position: static;
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    -webkit-box-sizing: content-box;
+    margin: auto;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    padding-left: px;
 		}
+
 				
 		#beach, #rose, #storm, #teal, #underwater {
 			width: 29%;
@@ -275,3 +455,20 @@ footer p a {
 		
 	}
 
+.align-center {
+}
+#container main h1 {
+    color: 1e1b1e;
+    font-family: Calibri, Cambria;
+    font-style: italic;
+    position: static;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    margin: auto;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 200px;
+    padding-left: px;
+    clear: both;
+    display: table;
+}
