@@ -53,6 +53,31 @@
 			<p>Prints are also available per request.</p>
 
 			
+	
+	
+	<div id="page">
+
+		<form method="post" action="http://www.example.org/register" id="formSignup">
+        <h4>Packages Savings</h4>
+
+        <label for="package" class="selectbox"> Select a package: </label>
+        <select id="package">
+          <option value="double">2 Paintings (10% off)</option>
+          <option value="triple">3 Paintings (Free Shipping)</option>
+        </select>
+                <div id="packageHint" class="tip">You've activated Free Shipping!</div>
+
+
+
+        <input type="checkbox" id="terms" />
+        <label for="terms" class="checkbox"> Check to agree to terms &amp; conditions</label>
+<div id="termsHint" class="warning"><span>&#9888; </span>You must agree to terms.</div>
+<input type="submit" class="sub:hover" id="submit" value="next" />
+</form>
+    </div>
+      <script src="events.js"></script>
+	
+	
 </main>
 	
 	<!-- Use the footer area to add webpage footer content -->
