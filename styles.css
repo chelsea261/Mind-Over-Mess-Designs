@@ -412,6 +412,120 @@ main .container.content-section .cart-total {
     font-weight: 900;
     color: 202020;
 }
+.selectbox   {
+    color: #070707;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.checkbox {
+    display: inline;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #160404;
+}
+
+#termsHint {
+    background-repeat: no-repeat;
+    padding-right: 0;
+    padding-left: 22px;
+    background-position: 2px 14px;
+}
+input{
+    background-color: #F3F8F3;
+    color: #1D4277;
+    -webkit-box-shadow: 0% 0px;
+    box-shadow: 0% 0px;
+}
+
+
+#formSignup {
+    padding-top: 0;
+    padding-right: 60px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    display: inline-block;
+    margin-top: 100px;
+    background-color: #DCB173;
+    font-family: inherit;
+    border: medium solid #000000;
+}
+#package {
+    font-size: 16px;
+    overflow: visible;
+    writing-mode: horizontal-tb;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    display: inline-block;
+    text-align: center;
+    appearance: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: 1px solid #1D1B1B;
+}
+#page #formSignup #termsHint  {
+    color: #DD1418;
+    background-repeat: no-repeat;
+    padding-right: 0;
+    background-position: 2px 14px;
+    display: block;
+    margin: 0;
+    background-color: #DCB173;
+    content: \26A0;
+    padding-left: 0px;
+}
+#page #formSignup #terms {
+
+}
+
+#page #formSignup #packageHint  {
+    color: #002A9F;
+}
+#page #formSignup h4 {
+    color: #213F71;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+#container main #page {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#terms {
+    float: none;
+
+}
+nav li a:hover {
+    color: #F8F6F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -556,11 +670,8 @@ main .container.content-section .cart-total {
 		nav li a {
 			padding: 0.5em 1em;
 		}
-		
-		nav li a:hover {
-			color: #000;
-			background-color: #fff;
-		}
+
+
 		
 	/* Desktop viewport: Style Rules for main content */
 		main {
@@ -672,3 +783,28 @@ main .container.content-section .section-header {
     clear: both;
     display: table;
 }
+#submit {
+}
+
+input[type='submit'], a.add {
+    background-color: #27436B;
+    color: #FDFDFC;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-left: 175px;
+}
+
+input[type='submit']:hover, a.add:hover {
+    background-color: #FCF6F7;
+    color: #27436B;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+  }
