@@ -445,6 +445,8 @@ input{
 }
 
 
+
+
 #formSignup {
     padding-top: 0;
     padding-right: 60px;
@@ -456,6 +458,13 @@ input{
     font-family: inherit;
     border: medium solid #000000;
 }
+.sub:hover.btn {
+    background-color: #F3F8F3;
+    color: #1D4277;
+    -webkit-box-shadow: 0% 0px;
+    box-shadow: 0% 0px;
+}
+
 #package {
     font-size: 16px;
     overflow: visible;
@@ -512,6 +521,94 @@ input{
 nav li a:hover {
     color: #F8F6F6;
 }
+#slideAd  {
+    width: 130px;
+    height: 60px;
+    background-color: #403c3b;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding-right: 20px;
+    padding-left: 50px;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    bottom: 20px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    background-position: 10px center;
+}
+div {
+    display: block;
+}
+#container main #slideAd {
+    width: 200px;
+    height: 100px;
+    background-color: #403c3b;
+    background-repeat: no-repeat;
+    color: #fff;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding-right: 20px;
+    padding-left: 50px;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    bottom: 20px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    background-position: 10px center;
+    font-family: oswald;
+    right: 0px;
+}
+.hot {
+    background-color: #233079;
+    color: #fff;
+    border-top: 1px solid #e99295;
+    border-bottom: 1px solid #914141;
+    width: 250px;
+    margin-left: 365px;
+    border-radius: 10px;
+    text-align: center;
+}
+li .hot #one #two #three {
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-align: left;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+h5 {
+    width: 250px;
+    display: inline-block;
+    margin-left: 485px;
+    font-size: x-large;
+    text-align: center;
+    background-color: #7B8B91;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    color: #343C3E;
+    text-shadow: 0px 0px 20px #FCF2F2;
+    border-radius: 10px;
+}
+.date {
+    padding: left;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -681,7 +778,7 @@ nav li a:hover {
 		main h1 {
     font-size: 2.25em;
     text-align: center;
-    display: table;
+    display: inline-block;
     clear: both;
     position: static;
     color: #1e1b1e;
@@ -808,3 +905,5 @@ input[type='submit']:hover, a.add:hover {
     position: relative;
     top: 1px;
   }
+.button {
+}
