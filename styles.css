@@ -562,28 +562,7 @@ div {
     font-family: oswald;
     right: 0px;
 }
-.hot {
-    background-color: #233079;
-    color: #fff;
-    border-top: 1px solid #e99295;
-    border-bottom: 1px solid #914141;
-    width: 250px;
-    margin-left: 365px;
-    border-radius: 10px;
-    text-align: center;
-}
-li .hot #one #two #three {
-    color: #fff;
-    border-top: 1px solid #fe9772;
-    border-bottom: 1px solid #9f593f;
-    font-size: 24px;
-    letter-spacing: .05em;
-    list-style-type: none;
-    text-align: left;
-    height: 50px;
-    padding-left: 1em;
-    padding-top: 10px;
-}
+
 h5 {
     width: 250px;
     display: inline-block;
@@ -601,6 +580,20 @@ h5 {
     padding: left;
     font-size: 12px;
 }
+#one  , #two  , #three{
+    background-color: #233079;
+    color: #fff;
+    border-top: 1px solid #e99295;
+    border-bottom: 1px solid #914141;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 365px;
+    text-align: center;
+}
+#container main ul {
+}
+
+
 
 
 
