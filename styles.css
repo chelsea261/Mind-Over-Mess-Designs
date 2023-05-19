@@ -17,8 +17,9 @@ body {
 }
 
 img {
-	max-width: 100%;
-	display: block;
+    max-width: 100%;
+    display: block;
+    margin-left: 20px;
 }
 
 /* Style rule for box sizing applies to all elements */
