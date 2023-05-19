@@ -926,8 +926,7 @@ input[type='submit']:hover, a.add:hover {
 .modal {
   position: absolute;
   z-index: 1000;
-  padding: 50px;
-  background-color: #555;}
+
 
 .modal-close {
   cursor: pointer;}
