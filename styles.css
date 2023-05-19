@@ -924,9 +924,9 @@ input[type='submit']:hover, a.add:hover {
 
 
 .modal {
-  position: absolute;
-  z-index: 1000;
-
+    position: absolute;
+    z-index: 1000;
+}
 
 .modal-close {
   cursor: pointer;}
@@ -950,12 +950,8 @@ section img {
 #share-options {
     background-color: #F8F1EA;
     text-align: center;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
     border: 10px solid #E0812B;
-    width: 350px;
+    width: 300px;
     height: 300px;
     clear: both;
 }
