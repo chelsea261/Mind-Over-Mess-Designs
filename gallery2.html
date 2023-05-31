@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--This website template was 
+	created by:Chelsea Thornton
+	File Name: template
+	Date: 05/05/22-->
+<html lang="en">
+<head>
+	<title>Mind Over Mess Designs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <title>JavaScript &amp; jQuery - Chapter 12: Filtering, Searching, and Sorting</title>
+
+	
+
+	<div id="container">
+
+	<!-- Use the header area for the website name or logo-->
+	<header>
+		<a href="index.html"><img src="logo.png" alt="Mind Over Mess Logo" height="200" width="200"></a>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="bio.html">Bio</a></li> 
+			<li><a href="gallery.html">Shop Art</a></li> 
+			<li><a href="gallery2.html">Gallery</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<!-- Hero Image -->
+	<div id="hero">
+		<img src="beach1.jpg" alt="beach1">
+	</div>
+	
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	  <h1>Gallery</h1>
+
+    <div id="search">
+      <input type="text" placeholder="filter by search" id="filter-search" />
+    </div>
+    <div class="grid"   id="gallery">
+      <img src="beach.jpg" alt="Beach" class="round" data-tags="Art, Acrylic" />
+      <img src="storm.jpg" alt="Storm" class="round" data-tags="Art, Filmmakers" />
+      <img src="underwater.jpg" alt="Underwater" class="round" data-tags="Art, Filmmakers" />
+      <img src="teal.jpg" alt="Teal" class="round" data-tags="Art" />
+      <img src="rose.jpg" alt="Rose" class="round" data-tags="Art" />
+	  <img src="coffee.png" alt="Coffee" class="round" data-tags="Photography" />
+
+      
+    </div>
+    <script src="jquery.js"></script>
+    <script src="filter-search.js"></script>
+		
+		
+		
+</main>
+	
+	<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2022. All Rights Reserved.</p>
+			<p><a href="mailto:mindovermessdesigns@gmail">mindovermessdesigns@gmail.com</a></p>
+</footer>
+	
+	</div>
+	
+
+</body>
+</html>
