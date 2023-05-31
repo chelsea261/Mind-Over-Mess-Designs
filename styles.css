@@ -15,11 +15,9 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
 body {
 	background-color: #C4E3E6;
 }
-
-img {
-    max-width: 100%;
+#hero img {
+    max-width: 125%;
     display: block;
-    margin-left: 20px;
 }
 
 /* Style rule for box sizing applies to all elements */
@@ -104,7 +102,7 @@ main {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     width: 250px;
-    padding-left: px;
+    padding-left: 0px;
     clear: both;
     display: table;
 }
@@ -978,3 +976,29 @@ button.modal-close {
   text-transform: uppercase;}
 
 button.modal-close:hover {background-color: #ed612f;}
+
+
+
+/* Gallery of images */
+
+
+/* Search input */
+input {
+    font-size: 90%;
+    border: 1px solid #999;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-left: 490px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input:hover {
+	border: 1px solid #666;}
+input:focus {
+    border: 1px solid #00cccc;
+    outline: none;
+    display: inline;
+}
