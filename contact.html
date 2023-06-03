@@ -15,6 +15,10 @@
 	<link rel="icon" type="png" sizes="16x16" href="favicon-16x16.png">
 	<link rel="manifest" href="images/site.webmanifest">
 	
+<link rel="stylesheet" href="c13.css" />
+<link rel="stylesheet" href="jquery-ui-1.10.3.custom.min.css" />
+
+	
 
 </head>
 <body>
@@ -38,7 +42,7 @@
 	</nav>
 
 	<!-- Hero Image -->
-	<div id="hero">
+<div id="hero">
 		<img src="beach1.jpg" alt="beach1">
 	</div>
 	
@@ -49,8 +53,56 @@
 	
 		<h2>Interested in a quote?</h2> 
 		<h3>Contact us today!</h3>
-		<h4>Email: <a href="mailto:mindovermessdesigns@gmail.com" class="contact-email-link">mindovermessdesigns@gmail.com</a></h4>
-		<h4>Located in Washington State</h4>
+		<p>Email: <a href="mailto:mindovermessdesigns@gmail.com" class="contact-email-link">mindovermessdesigns@gmail.com</a></p>
+		
+		
+		<body>
+  <div class="container">
+    <form method="post" action="/register" name="register">
+      <h3 class="welcome align-center">Join our mailing list</h3>
+      <p class="intro">Welcome to Mind Over Mess, I design Abstract Art using Acrylic paint. I use feeling and emotion to create original pieces.</p>
+<div class="one-third column">
+      <h3>Form&nbsp;</h3>
+          <div class="name">
+            <label for="name" class="required">Name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+        </div>
+          <div class="email">
+            <label for="email" class="required">Email:</label>
+            <input type="email" placeholder="you@example.com" name="email" id="email" required>
+          </div>
+          <div class="password">
+            <label for="password" class="required">Password:</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="password align-center">
+            <label for="conf-password" class="required">Confirm password:</label>
+            <input type="password" name="conf-password" id="conf-password" required>
+          </div>
+      </div>
+      <div class="one-third column">
+        <h3>Must be over 18 to join our mailing list&nbsp;</h3>
+          <div class="birthday">
+            <label for="birthday" class="required">Birthday:</label>
+            <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+            <div id="consent-container" class="hide">
+              <label for="parents-consent">click if you are under 18 and have your parents consent:</label>
+              <input type="checkbox" name="parents-consent" id="parents-consent">
+            </div>
+        </div>
+          <div class="bio">
+            <label for="bio">Message of what you are looking for (max 140 characters):</label>
+            <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+            <span id="bio-count" class="hide">140</span>
+          </div>
+          <div class="register">
+            <input type="submit" class="align-center" value="Register">
+          </div>
+      </div>
+</form>
+  </div><!-- .container -->
+		</body>
+<h4>Located in Washington State</h4>
 	
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773042.9633744536!2d-123.13064987939008!3d47.254730082322546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485e5ffe7c3b0f9%3A0x944278686c5ff3ba!2sWashington!5e0!3m2!1sen!2sus!4v1652847755732!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
 		</div>
@@ -66,6 +118,14 @@
 	</footer>
 	
 	</div>
-	
+<script src="jquery-1.9.1.js"></script>
+  <script src="jquery-ui-1.10.3.custom.js"></script>
+  <script src="utilities.js"></script>
+  <script src="placeholder-polyfill.js"></script>
+  <script src="password-signup.js"></script>
+  <script src="birthday.js"></script>
+  <script src="validation.js"></script>
+  <script src="bio.js"></script>
+
 </body>
 </html>
